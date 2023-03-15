@@ -31,4 +31,5 @@ let N = Array.length;
 let K = 2;
  
 console.log(RightRotate(Array, N, K))
+console.log(K%N)
  

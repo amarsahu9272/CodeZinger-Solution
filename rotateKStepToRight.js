@@ -13,6 +13,7 @@ function reverse(nums, start, end) {
     end--;
   }
 }
+
 var rotate = function (nums, k) {
   k %= nums.length; // Get the actual number of steps to rotate
 
