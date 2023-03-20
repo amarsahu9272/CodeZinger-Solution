@@ -21,5 +21,5 @@ function subarraySum(arr, n, sum) {
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let sum = 15;
-let [left, right] = subarraySum(arr,10, sum);
+let [left, right] = subarraySum(arr, 10, sum);
 console.log(`[${left}, ${right}]`); // prints [2, 4]
